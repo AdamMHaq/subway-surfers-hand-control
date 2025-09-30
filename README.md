@@ -8,7 +8,6 @@ A real-time hand gesture recognition system that lets you control Subway Surfers
 - **👈 Point LEFT** → Steer Left (Left Arrow)
 - **👉 Point RIGHT** → Steer Right (Right Arrow) 
 - **✊ Make FIST** → Roll/Duck (Down Arrow)
-- **🖐️ Open Hand** → Neutral (No Input)
 
 ## 🚀 Features
 
@@ -20,7 +19,7 @@ A real-time hand gesture recognition system that lets you control Subway Surfers
 
 ## 📋 Requirements
 
-- Python 3.7+
+- Python 3.7-3.11
 - Webcam
 - OpenCV
 - CVZone
@@ -69,19 +68,3 @@ You can adjust these settings in the code:
 - `COOLDOWN_SECONDS`: Time between key presses (default: 0.05s)
 - `DIRECTION_THRESHOLD`: Sensitivity for direction detection (default: 35°)
 - `FRAME_WIDTH/HEIGHT`: Camera resolution (default: 160x120 for speed)
-
-## 🤝 Contributing
-
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🎖️ Author
-
-Created by ChatGPT with optimizations for real-time gaming performance.
-
----
-
-**Enjoy hands-free gaming!** 🎮✋
